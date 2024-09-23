@@ -1,0 +1,34 @@
+header{
+    border: 1.5px solid black;
+    padding: 2.5px;
+    display: flex;
+    justify-content: space-between; /* configura posição horizontalmente */
+    align-items: baseline; /* configura posição verticalmente */
+}
+
+header img{
+    width: 100px;
+}
+
+nav ul{
+   display: flex;
+   justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    border: 1.5px solid black;
+    padding: 0px 10px;
+}
+
+nav ul li:hover{
+    background-color: lightblue
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul {
+    display: none
+}
