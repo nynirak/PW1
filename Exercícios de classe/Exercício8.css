@@ -30,5 +30,68 @@ nav ul li:hover ul{
 }
 
 nav ul li ul {
-    display: none
+    display: none;
+    position: absolute;
+    background-color: rgb(42, 42, 207);
+}
+
+nav ul li ul li {
+    padding: 5px 3px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.grid1 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid2 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.elemento {
+    height: 200px;
+    margin: 10px;
+}
+
+#semana-de-prova{
+    color: white;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#WebSai {
+    padding: 10px;
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#Passe-Escolar {
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Notícias{
+    color: white;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
