@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    //Média de 2 notas exibindo a classificação: Aprovado, Aprovado com Louvor e Reprovado
+    let num1 = parseFloat(prompt("Digite sua primeira nota: "));
+    let num2 = parseFloat(prompt("Digite sua segunda nota: "));
+    let media = (num1+num2)/2
+
+    alert("Sua média é: " + media.toFixed(2));
+    //Estrutura condicional Se
+    if(media <5){
+        alert("Reprovado.")
+    }
+    else if(media < 8){
+        alert("Aprovado.")
+    }
+    else{
+        alert("Aprovado com Louvor.")
+    }
+</script>

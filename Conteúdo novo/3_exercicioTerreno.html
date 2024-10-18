@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+    //Solicitar largura, comprimento e valor do metro quadrado
+    let largura = parseInt(prompt("Largura: "));
+    let comp = parseInt(prompt("Comprimento: "));
+    let valorm2 = parseFloat(prompt("Preço do m² em reais: "));
+    //Calcula área e valor total do terreno
+    let area = largura*comp;
+    let valortrn = area * valorm2;
+    //Alerta para exibir área e preço
+    alert("Área: " + area + "\nPreço do terreno: " + valortrn.toFixed(2));
+    //Estrutura condicional para saber se posso comprar
+    if(valortrn < 250000){
+        alert("Posso adquirir.");
+    }
+    else if(valortrn < 400000){
+        alert("Necessário financiar.");
+    }
+    else{
+        alert("Fora do orçamento.");
+    }
+</script>

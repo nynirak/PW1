@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<!-- Utilizando javascript dentro do html -->
+<script>
+    //Declaração de variáveis (let + NomeVariável = valor)
+    let nome = "Thiago";
+    let idade = 43;
+    let altura = 1.75;
+
+    //Caixa de diálogo do tipo alerta
+    alert("Nome: " + nome + "\nIdade: " + idade + "\nAltura: " + altura);
+
+    //Solicitar um valor para o usuário
+    let disc = prompt("Digite a disciplina atual");
+    //Exibir o dado coletado do usuário
+    alert("Disciplina: " + disc);
+    //Exemplo: Média de dois números
+    //Converte para inteiro parseInt
+    //Converte para real parseFloat
+    //Outra maneira função Number
+    let num1 = parseInt(prompt("Digite o primeiro número: "));
+    let num2 = parseInt(prompt("Digite o segundo número: "));
+    let media = (num1+num2)/2;
+    //Exibindo com 2 casas decimais
+    alert("Média dos números é: " + media.toFixed(2));    
+</script>
+<!-- Depois do fechamento do body -->
+<!-- <script scr="script.js"></script> -->
