@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+    let combs = prompt("Qual o combustível desejado? G ou E?");
+    let litros = Number(prompt("Qual a quantidade de litros desejada?"));
+    switch(combs){
+        case 'G':
+        case 'g':
+            vlt = 5.8*litros
+            alert("O valor total é R$ " + vlt);
+            break;
+        case 'E':
+        case 'e':
+            vlt = 4.2*litros
+            alert("O valor total é R$ " + vlt);
+            break;
+        default:
+            alert("Combustível inválido");
+            break;
+    }   
+</script>

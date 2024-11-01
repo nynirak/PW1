@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script>
+    let codprod = Number(prompt("Informe o código do produto desejado:"));
+    let quant = Number(prompt("Qual a quantidade desejada?"));
+    switch(codprod){
+        case 1:
+            vlt = 0.2*quant
+            alert("O valor da compra é R$ " + vlt);
+            break;
+        case 2:
+            vlt = 3*quant
+            alert("O valor da compra é R$ " + vlt);
+            break;
+        case 3:
+            vlt = 3.5*quant
+            alert("O valor da compra é R$ " + vlt);
+            break;
+        case 4:
+            vlt = 5.5*quant
+            alert("O valor da compra é R$ " + vlt);
+            break;
+        case 5:
+            vlt = 6*quant
+            alert("O valor da compra é R$ " + vlt);
+            break;
+        default:
+            alert("Código inválido");
+            break;
+    }   
+</script>

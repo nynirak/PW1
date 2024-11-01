@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<!-- Estrutura Condicional Switch
+sintaxe básica
+switch(variável){
+    case x:
+        alert("Ação desejada");
+        break;
+    case y:
+        alert("Ação desejada");
+        break;
+    case z:
+        alert("Ação desejada");
+        break;
+    default:
+        alert("Caso não tenha nenhum caso verdadeiro");
+        break;
+}
+Faça um código em javascript, usando estrutura condicional switch que receba um número inteiro e exiba um dia da semana correspondente 
+1 - domingo até 7 - sábado 
+Caso diferente, exibir "Dia inválido"-->
+<script>
+    let dia = Number(prompt("Informe um número para verificar o dia da semana correspondente. (1 a 7)"))
+    switch(dia){
+        case 1: 
+            alert("Domingo");
+            break;
+        case 2: 
+            alert("Segunda");
+            break;
+        case 3: 
+            alert("Terça");
+            break;
+        case 4: 
+            alert("Quarta");
+            break;
+        case 5: 
+            alert("Quinta");
+            break;
+        case 6: 
+            alert("Sexta");
+            break;
+        case 7: 
+            alert("Sábado");
+            break;
+        default:
+            alert("Dia inválido");
+            break;
+    }
+</script>
